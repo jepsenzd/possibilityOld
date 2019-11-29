@@ -10,12 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace possibility
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MasterPage : ContentPage
+    public partial class profilePage : ContentPage
     {
-        public MasterPage()
+        public profilePage()
         {
             InitializeComponent();
-            BindingContext = new MasterViewModel();
         }
     }
 }

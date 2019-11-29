@@ -10,12 +10,15 @@ namespace possibility
         {
             InitializeComponent();
 
-            MainPage = new MasterDetailPage()
+            /*MainPage = new MasterDetailPage()
 			{
 				Master = new MasterPage() { Title = "Dashboard" },
 				Detail = new NavigationPage(new dashboardPage())
-			};
+			};*/
+            MainPage = new MainPage();
         }
+
+
 
         protected override void OnStart()
         {

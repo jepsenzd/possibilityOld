@@ -30,6 +30,12 @@ public ICommand NavigationCommand
                         case "2":
                             navPage.PushAsync(new findRestaurantsPage());
                             break;
+                        case "3":
+                            navPage.PushAsync(new profilePage());
+                            break;
+                        case "4":
+                            navPage.PushAsync(new settingsPage());
+                            break;
                     }
 
                 });

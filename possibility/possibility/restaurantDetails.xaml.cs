@@ -10,10 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace possibility
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-
-    public partial class dashboardPage : ContentPage
+    public partial class restaurantDetails : ContentPage
     {
-        public dashboardPage()
+        public restaurantDetails()
         {
             InitializeComponent();
         }
