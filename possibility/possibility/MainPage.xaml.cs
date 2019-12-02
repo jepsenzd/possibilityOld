@@ -1,4 +1,7 @@
 ﻿using possibility.MenuItems;
+using possibility.Views.Forms;
+using possibility.Views.Profile;
+using possibility.Views.Settings;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,31 +26,43 @@ namespace possibility
             InitializeComponent();
             menuList = new List<MasterPageItem>();
             // Adding menu items to menuList and you can define title ,page and icon  
-           
+
+            menuList.Add(new MasterPageItem()
+            {
+                Title = "Login",
+                Icon = "dashboard.png",
+                TargetType = typeof(SimpleLoginPage)
+            });
+
             menuList.Add(new MasterPageItem()
             {
                 Title = "Dashboard",
                 Icon = "dashboard.png",
                 TargetType = typeof(dashboardPage)
             });
+
             menuList.Add(new MasterPageItem()
             {
                 Title = "Find Restaurants",
                 Icon = "restaurant.png",
                 TargetType = typeof(findRestaurantsPage)
             });
+
             menuList.Add(new MasterPageItem()
             {
                 Title = "My Profile",
                 Icon = "profile.png",
-                TargetType = typeof(profilePage)
+                TargetType = typeof(ProfilePage)
             });
+
             menuList.Add(new MasterPageItem()
             {
                 Title = "Settings",
                 Icon = "settings.png",
-                TargetType = typeof(settingsPage)
+                TargetType = typeof(SettingPage)
             });
+
+
             
             // Setting our list to be ItemSource for ListView in MainPage.xaml  
             navigationDrawerList.ItemsSource = menuList;

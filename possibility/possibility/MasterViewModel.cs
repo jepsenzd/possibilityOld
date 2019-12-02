@@ -1,4 +1,7 @@
-﻿using System;
+﻿using possibility.Views.Forms;
+using possibility.Views.Profile;
+using possibility.Views.Settings;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +12,7 @@ namespace possibility
 {
     public class MasterViewModel
     {
-public ICommand NavigationCommand
+        public ICommand NavigationCommand
         {
             get
             {
@@ -18,6 +21,7 @@ public ICommand NavigationCommand
                     // COMMENT: This is just quick demo code. Please don't put this in a production app.
                     var mdp = (Application.Current.MainPage as MasterDetailPage);
                     var navPage = mdp.Detail as NavigationPage;
+                    //test
 
                     // Hide the Master page
                     mdp.IsPresented = false;
@@ -31,10 +35,13 @@ public ICommand NavigationCommand
                             navPage.PushAsync(new findRestaurantsPage());
                             break;
                         case "3":
-                            navPage.PushAsync(new profilePage());
+                            navPage.PushAsync(new ProfilePage());
                             break;
                         case "4":
-                            navPage.PushAsync(new settingsPage());
+                            navPage.PushAsync(new SettingPage());
+                            break;
+                        case "5":
+                            navPage.PushAsync(new SimpleLoginPage());
                             break;
                     }
 
