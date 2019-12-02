@@ -23,6 +23,7 @@ namespace possibility
             InitializeComponent();
             menuList = new List<MasterPageItem>();
             // Adding menu items to menuList and you can define title ,page and icon  
+           
             menuList.Add(new MasterPageItem()
             {
                 Title = "Dashboard",
@@ -47,6 +48,7 @@ namespace possibility
                 Icon = "settings.png",
                 TargetType = typeof(settingsPage)
             });
+            
             // Setting our list to be ItemSource for ListView in MainPage.xaml  
             navigationDrawerList.ItemsSource = menuList;
             // Initial navigation, this can be used for our home page  

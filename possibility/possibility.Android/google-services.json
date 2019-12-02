@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "917922610585",
+    "firebase_url": "https://possibility.firebaseio.com",
+    "project_id": "possibility",
+    "storage_bucket": "possibility.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917922610585:android:82b125b8e4527151bc6708",
+        "android_client_info": {
+          "package_name": "com.companyname.possibility"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917922610585-7nf6kmphj281id9tkf4bjqpb9fs53ip4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4enpzwRr55vLAcVlCTtdnp5l0UPOqlRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917922610585-7nf6kmphj281id9tkf4bjqpb9fs53ip4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
