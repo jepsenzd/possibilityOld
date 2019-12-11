@@ -17,19 +17,12 @@
     <Color x:Key="Orange">#4aff7d</Color>
     <Color x:Key="Blue">#4acaff</Color>
     <Color x:Key="HyperLink">#567cd7</Color>
-    <Color x:Key="FacebookBlue">#4267B2</Color>
 
-    <Color x:Key="Gray-100">#f6f7f8</Color>
-    <Color x:Key="Gray-200">#ebecef</Color>
-    <Color x:Key="Gray-300">#ced2d9</Color>
-    <Color x:Key="Gray-400">#b2b8c2</Color>
-    <Color x:Key="Gray-500">#959eac</Color>
-    <Color x:Key="Gray-600">#788396</Color>
-    <Color x:Key="Gray-700">#606a7b</Color>
-    <Color x:Key="Gray-800">#4a515e</Color>
-    <Color x:Key="Gray-900">#333942</Color>
-    <Color x:Key="Gray-Black">#000000</Color>
-    <Color x:Key="Gray-White">#ffffff</Color>
+    <Color x:Key="Gray-Light">#ced2d9</Color>
+    <Color x:Key="Gray">#b2b8c2</Color>
+    <Color x:Key="Gray-Dark">#606a7b</Color>
+    <Color x:Key="Black">#000000</Color>
+    <Color x:Key="White">#ffffff</Color>
 
     <OnPlatform x:Key="FontIcons" x:TypeArguments="x:String">
         <OnPlatform.Platforms>

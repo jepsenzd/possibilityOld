@@ -67,17 +67,7 @@
                         HorizontalTextAlignment="Center"
                         Style="{StaticResource LabelStyle}"
                         Text="Log In"
-                        TextColor="{DynamicResource Gray-900}" />
-
-                    <!--  Label to display the description of this page  -->
-                    <Label
-                        Grid.Row="1"
-                        Margin="0,8"
-                        FontFamily="{StaticResource Montserrat-Medium}"
-                        HorizontalTextAlignment="Center"
-                        Style="{StaticResource LabelStyle}"
-                        Text="Let's get to work"
-                        TextColor="{DynamicResource Gray-800}" />
+                        TextColor="Gray" />
 
                     <!--  Entry to get email ID from user  -->
                     <local:SimpleEmailEntry Grid.Row="2" Padding="0,24" />
@@ -85,17 +75,17 @@
                     <!--  Entry to get password from user  -->
                     <border:SfBorder
                         Grid.Row="3"
-                        BackgroundColor="{DynamicResource Gray-White}"
+                        BackgroundColor="{DynamicResource White}"
                         BorderColor="{Binding Source={x:Reference PasswordEntry}, Path=IsFocused, Converter={StaticResource ColorConverter}, ConverterParameter=3}"
                         Style="{StaticResource SfBorderStyle}">
                         <control:BorderlessEntry
                             x:Name="PasswordEntry"
                             IsPassword="True"
                             Placeholder="Password"
-                            PlaceholderColor="{DynamicResource Gray-700}"
+                            PlaceholderColor="{DynamicResource Gray-Dark}"
                             Style="{StaticResource EntryStyle}"
                             Text="{Binding Password}"
-                            TextColor="{DynamicResource Gray-900}" />
+                            TextColor="Gray" />
                     </border:SfBorder>
 
                     <!--  Forgot password link  -->
@@ -107,7 +97,7 @@
                         FontSize="12"
                         HorizontalOptions="End"
                         Text="FORGOT PASSWORD?"
-                        TextColor="{DynamicResource Gray-800}">
+                        TextColor="Gray">
                         <Label.GestureRecognizers>
                             <TapGestureRecognizer Command="{Binding ForgotPasswordCommand}" CommandParameter="{x:Reference ForgotPasswordLabel}" />
                         </Label.GestureRecognizers>
@@ -128,7 +118,7 @@
                         HorizontalTextAlignment="Center"
                         Style="{StaticResource LabelStyle}"
                         Text="Or create an account using social media"
-                        TextColor="{DynamicResource Gray-800}" />
+                        TextColor="Gray" />
 
                     <!--  Login through facebook account  -->
                     <buttons:SfButton
@@ -147,13 +137,13 @@
                                     FontFamily="{StaticResource FontIcons}"
                                     FontSize="18"
                                     Text="&#x47;"
-                                    TextColor="{DynamicResource Gray-White}"
+                                    TextColor="{DynamicResource White}"
                                     VerticalTextAlignment="Center" />
                                 <Label
                                     FontFamily="{StaticResource Montserrat-Medium}"
                                     FontSize="16"
                                     Text="Login with Google"
-                                    TextColor="{DynamicResource Gray-White}" />
+                                    TextColor="{DynamicResource White}" />
                             </StackLayout>
                         </buttons:SfButton.Content>
                     </buttons:SfButton>
@@ -179,7 +169,7 @@
                         HorizontalTextAlignment="Center"
                         Style="{StaticResource LabelStyle}"
                         Text="Don't have an account?"
-                        TextColor="{DynamicResource Gray-900}"
+                        TextColor="{DynamicResource Gray-Dark}"
                         VerticalTextAlignment="Center" />
 
                     <!--  Sign-up button  -->
