@@ -10,6 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace possibility
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
+
     public partial class dashboardPage : ContentPage
     {
         public dashboardPage()

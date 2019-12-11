@@ -1,4 +1,8 @@
-﻿using System;
+using Syncfusion.XForms.iOS.Graphics;
+using Syncfusion.ListView.XForms.iOS;
+using Syncfusion.XForms.iOS.Border;
+using Syncfusion.XForms.iOS.Buttons;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -23,6 +27,10 @@ namespace possibility.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            SfGradientViewRenderer.Init();
+            SfListViewRenderer.Init();
+            SfBorderRenderer.Init();
+            SfButtonRenderer.Init();
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

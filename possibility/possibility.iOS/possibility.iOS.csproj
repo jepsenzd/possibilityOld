@@ -62,9 +62,15 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <Compile Include="Renderers\BorderlessEntryRenderer.cs" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <BundleResource Include="Resources\UIFontIcons.ttf" />
+    <BundleResource Include="Resources\Montserrat-Bold.ttf" />
+    <BundleResource Include="Resources\Montserrat-Medium.ttf" />
+    <BundleResource Include="Resources\Montserrat-Regular.ttf" />
+    <BundleResource Include="Resources\Montserrat-SemiBold.ttf" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -120,6 +126,21 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Syncfusion.Xamarin.Buttons">
+      <Version>17.3.0.29</Version>
+    </PackageReference>
+    <PackageReference Include="Syncfusion.Xamarin.Core">
+      <Version>17.3.0.29</Version>
+    </PackageReference>
+    <PackageReference Include="Syncfusion.Xamarin.SfComboBox">
+      <Version>17.3.0.29</Version>
+    </PackageReference>
+    <PackageReference Include="Syncfusion.Xamarin.SfListView">
+      <Version>17.3.0.29</Version>
+    </PackageReference>
+    <PackageReference Include="Syncfusion.Xamarin.SfRating">
+      <Version>17.3.0.29</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="4.1.0.555618" />
     <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
   </ItemGroup>
@@ -130,4 +151,5 @@
       <Name>possibility</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
 </Project>
