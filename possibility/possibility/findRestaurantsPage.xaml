@@ -31,10 +31,12 @@
                                        WidthRequest="60" />
                                 <Label Grid.Column="1"
                                        Text="{Binding restaurantName}"
+                                       TextColor="{DynamicResource Gray-Dark}"
                                        FontAttributes="Bold" />
                                 <Label Grid.Row="1"
                                        Grid.Column="1"
                                        Text="{Binding Location}"
+                                       TextColor="{DynamicResource Gray-Dark}"
                                        VerticalOptions="End" />
                             </Grid>
                         </ViewCell>
