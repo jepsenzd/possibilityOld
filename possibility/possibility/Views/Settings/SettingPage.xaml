@@ -10,7 +10,7 @@
     x:Name="settingPage"
     BackgroundColor="{DynamicResource Gray-100}"
     >
-
+    <!--  Testing -->
     <ContentPage.Resources>
         <ResourceDictionary>
             <ResourceDictionary Source="Styles.xaml" />
