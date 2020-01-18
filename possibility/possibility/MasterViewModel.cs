@@ -18,7 +18,6 @@ namespace possibility
             {
                 return new Command((value) =>
                 {
-                    // COMMENT: This is just quick demo code. Please don't put this in a production app.
                     var mdp = (Application.Current.MainPage as MasterDetailPage);
                     var navPage = mdp.Detail as NavigationPage;
                     //test
