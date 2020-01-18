@@ -8,6 +8,7 @@ using System.Text;
 using System.Windows.Input;
 using Xamarin.Forms;
 
+//Testing
 namespace possibility
 {
     public class MasterViewModel
